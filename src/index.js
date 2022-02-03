@@ -1,8 +1,5 @@
 const express = require('express')
 
-const dotenv = require('dotenv');
-dotenv.config();
-
 // calling db file to insure it runs, dont need to fetch anything from the file
 require('./db/mongoose')
 
